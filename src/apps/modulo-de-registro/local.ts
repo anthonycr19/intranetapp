@@ -1,0 +1,66 @@
+export class Local {
+    constructor(
+        public id_local: string = '',
+        public id_curso: string = '',
+        public ubigeo: string = '',
+        public nombre_local: string = '',
+        public tipo_via: string = '',
+        public nombre_via: string = '',
+        public referencia: string = '',
+        public n_direccion: string = '',
+        public km_direccion: string = '',
+        public mz_direccion: string = '',
+        public lote_direccion: string = '',
+        public piso_direccion: string = '',
+        public telefono_local_fijo: string = '',
+        public telefono_local_celular: string = '',
+        public fecha_inicio: string = '',
+        public fecha_fin: string = '',
+        public turno_uso_local: string = '',
+        public capacidad_local: string = '',
+        public funcionario_nombre: string = '',
+        public funcionario_email: string = '',
+        public funcionario_telefono: string = '',
+        public funcionario_celular: string = '',
+        public responsable_nombre: string = '',
+        public responsable_email: string = '',
+        public responsable_telefono: string = '',
+        public responsable_celular: string = '',
+        public amb_aula: boolean = false,
+        public amb_aula_cant: string = '',
+        public amb_auditorio: boolean = false,
+        public amb_auditorio_cant: string = '',
+        public amb_salareuniones: boolean = false,
+        public amb_salareuniones_cant: string = '',
+        public amb_oficinaadm: boolean = false,
+        public amb_oficinaadm_cant: string = '',
+
+    ) {
+    }
+}
+
+export class Aula {
+    constructor(
+        public id_aula: string = '',
+        public id_local: string = '',
+        public tipo_ambiente: string = '',
+        public mesas_cant: string = '',
+        public sillas_cant: string = '',
+        public carpindividuales_cant: string = '',
+        public carpbipersonales_cant: string = '',
+        public numero: string = '',
+        public n_piso: string = '',
+        public capacidad: string = '',
+        public puerta_chapa: boolean = false,
+        public puerta_pestillocandado: boolean = false,
+        public puerta_notiene: boolean = false,
+        public sshh: boolean = false,
+        public alumbrado: boolean = false,
+        public pizarra_acrilica: boolean = false,
+        public pizarra_cemento: boolean = false,
+        public proyector: boolean = false,
+        public computadora: boolean = false,
+        public acceso_internet: boolean = false,
+    ) {
+    }
+}
